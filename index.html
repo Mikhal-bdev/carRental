@@ -1,0 +1,1088 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Car Rental</title>
+    <link rel="stylesheet" href="./rsc/bootstrap-5.3.0/css/bootstrap.min.css" />
+    <link rel="stylesheet" href="css/style.css" />
+    <!-- Dans votre fichier HTML -->
+    <link
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" type="text/css" href="./rsc/slick/slick.css" />
+    <link rel="stylesheet" type="text/css" href="/rsc/slick/slick-theme.css" />
+  </head>
+  <body>
+    <div id="root">
+      <header class="header">
+        <div class="header__top">
+          <div class="container">
+            <div class="row">
+              <div class="col-sm-6 col-md-6 col-lg-6">
+                <div class="header__top__left">
+                  <span>Besoin d'aide ?</span
+                  ><span class="header__top__help"
+                    ><i class="fas fa-phone"></i> +1-202-505-0149</span
+                  >
+                </div>
+              </div>
+              <div class="col-sm-6 col-md-6 col-lg-6">
+                <div class="header__top__right gap-3">
+                  <a
+                    class="d-flex align-items-center gap-1"
+                    href="/carRental/home"
+                    ><i class="fas fa-sign-in-alt"></i> Se connecter</a
+                  ><a
+                    class="d-flex align-items-center gap-1"
+                    href="/carRental/home"
+                    ><i class="fas fa-user"></i> S'inscrire</a
+                  >
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="header__middle">
+          <div class="container">
+            <div class="row">
+              <div class="col-sm-4 col-md-3 col-lg-4">
+                <div class="logo">
+                  <h1>
+                    <a
+                      class="d-flex align-items-center gap-3"
+                      href="/carRental/home"
+                      ><i class="fas fa-car"></i
+                      ><span>Rent Car <br />Service</span></a
+                    >
+                  </h1>
+                </div>
+              </div>
+              <div class="col-sm-4 col-md-3 col-lg-3">
+                <div class="header__location d-flex align-items-center gap-2">
+                  <span><i class="fas fa-globe-africa"></i></span>
+                  <div class="header__location-content">
+                    <h4>Bangladesh</h4>
+                    <h6>Sylhet City,Bangladesh</h6>
+                  </div>
+                </div>
+              </div>
+              <div class="col-sm-4 col-md-3 col-lg-3">
+                <div class="header__location d-flex align-items-center gap-2">
+                  <span><i class="far fa-clock"></i></span>
+                  <div class="header__location-content">
+                    <h4>Sunday to Friday</h4>
+                    <h6>10AM - 7PM</h6>
+                  </div>
+                </div>
+              </div>
+              <div
+                class="d-flex align-items-center justify-content-end col-sm-0 col-md-3 col-lg-2"
+              >
+                <button class="header__btn btn">
+                  <a href="/carRental/contact"
+                    ><i class="fas fa-phone"></i> Réserver appel</a
+                  >
+                </button>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="main__navbar">
+          <div class="container">
+            <div
+              class="navigation__wrapper d-flex align-items-center justify-content-between"
+            >
+              <span class="mobile__menu"><i class="fas fa-bars"></i></span>
+              <div class="navigation">
+                <div class="menu">
+                  <a
+                    class="nav__active nav__items"
+                    href="/carRental/home"
+                    aria-current="page"
+                    >Accueil</a
+                  ><a class="nav__items" href="/carRental/about">A propos</a
+                  ><a class="nav__items" href="/carRental/cars">Voitures</a
+                  ><a class="nav__items" href="/carRental/blog">Blog</a
+                  ><a class="nav__items" href="/carRental/contact">Contact</a>
+                </div>
+              </div>
+              <div class="nav__right">
+                <div class="search__box">
+                  <input type="text" placeholder="Chercher" /><span>
+                    <i class="ri-search-line"></i>
+                  </span>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </header>
+      <div>
+        <div class="w-100">
+          <section class="p-0 hero__slider-section">
+            <div class="hero-slider hero__slider slick-initialized" dir="ltr">
+              <div class="slick-list">
+                <div class="slick-track" style="width: 6531px; opacity: 1;">
+                  <div
+                    data-index="0"
+                    class="slick-slide slick-active slick-current"
+                    tabindex="-1"
+                    aria-hidden="false"
+                    style="
+                      outline: none;
+                      width: 933px;
+                      position: relative;
+                      left: 0px;
+                      opacity: 1;
+                      transition: opacity 2000ms ease 0s,
+                        visibility 2000ms ease 0s;
+                    "
+                  >
+                    <div>
+                      <div
+                        class="slider__item slider__item-01 mt-0"
+                        tabindex="-1"
+                        style="width: 100%; display: inline-block;"
+                      >
+                        <div class="">
+                          <div class="slider__content">
+                            <h4 class="text-light mb-3">
+                              For Rent $70 Per Day
+                            </h4>
+                            <h1 class="text-light mb-4">
+                              Reserve Now and Get 50% Off
+                            </h1>
+                            <button class="btn reserve__btn mt-4">
+                              <a href="/carRental/cars">Reservez Maintenant</a>
+                            </button>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                  <div
+                    data-index="1"
+                    class="slick-slide"
+                    tabindex="-1"
+                    aria-hidden="true"
+                    style="
+                      outline: none;
+                      width: 933px;
+                      position: relative;
+                      left: -933px;
+                      opacity: 0;
+                      transition: opacity 2000ms ease 0s,
+                        visibility 2000ms ease 0s;
+                    "
+                  >
+                    <div>
+                      <div
+                        class="slider__item slider__item-02 mt-0"
+                        tabindex="-1"
+                        style="width: 100%; display: inline-block;"
+                      >
+                        <div class="container">
+                          <div class="slider__content">
+                            <h4 class="text-light mb-3">
+                              For Rent $70 Per Day
+                            </h4>
+                            <h1 class="text-light mb-4">
+                              Reserve Now and Get 50% Off
+                            </h1>
+                            <button class="btn reserve__btn mt-4">
+                              <a href="/carRental/cars">Reservez maintenant</a>
+                            </button>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                  <div
+                    data-index="2"
+                    class="slick-slide"
+                    tabindex="-1"
+                    aria-hidden="true"
+                    style="
+                      outline: none;
+                      width: 933px;
+                      position: relative;
+                      left: -1866px;
+                      opacity: 0;
+                      transition: opacity 2000ms ease 0s,
+                        visibility 2000ms ease 0s;
+                    "
+                  >
+                    <div>
+                      <div
+                        class="slider__item slider__item-03 mt-0"
+                        tabindex="-1"
+                        style="width: 100%; display: inline-block;"
+                      >
+                        <div class="container">
+                          <div class="slider__content">
+                            <h4 class="text-light mb-3">
+                              For Rent $70 Per Day
+                            </h4>
+                            <h1 class="text-light mb-4">
+                              Reserve Now and Get 50% Off
+                            </h1>
+                            <button class="btn reserve__btn mt-4">
+                              <a href="/carRental/cars">Reservez maintenant</a>
+                            </button>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="hero__form">
+              <div class="container">
+                <div class="form__row row">
+                  <div class="col-md-4 col-lg-4">
+                    <div class="find__cars-left">
+                      <h2>Trouvez la meilleure voiture</h2>
+                    </div>
+                  </div>
+                  <div class="col-sm-12 col-md-8 col-lg-8">
+                    <form class="form">
+                      <div
+                        class="d-flex align-items-center justify-content-between flex-wrap"
+                      >
+                        <div class="form__group mb-3">
+                          <input
+                            type="text"
+                            placeholder="De l'adresse"
+                            required=""
+                          />
+                        </div>
+                        <div class="form__group mb-3">
+                          <input
+                            type="text"
+                            placeholder="A l'adresse"
+                            required=""
+                          />
+                        </div>
+                        <div class="form__group mb-3">
+                          <input
+                            type="date"
+                            placeholder="Jour"
+                            required=""
+                          />
+                        </div>
+                        <div class="form__group mb-3">
+                          <input
+                            class="journey__time"
+                            type="time"
+                            placeholder="Heure"
+                            required=""
+                          />
+                        </div>
+                        <div class="select__group mb-3">
+                          <select
+                            ><option value="ac">AC Car</option
+                            ><option value="non-ac">Non AC Car</option></select
+                          >
+                        </div>
+                        <div class="form__group mb-3">
+                          <button class="btn find__car-btn">Trouver voiture</button>
+                        </div>
+                      </div>
+                    </form>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </section>
+          <section class="about__section" style="margin-top: 280px;">
+            <div class="container">
+              <div class="row">
+                <div class="col-md-6 col-lg-6">
+                  <div class="about__section-content">
+                    <h4 class="section__subtitle">A propos</h4>
+                    <h2 class="section__title">Bienvenue dans notre Service</h2>
+                    <p class="section__decritpion">
+                      Lorem ipsum dolor sit amet, consectetur adipisicing elit.
+                      Atque facilis reprehenderit non ullam obcaecati neque amet
+                      veniam consequuntur consectetur quas tempore modi vitae
+                      quidem illo molestias ab sequi debitis, quis reiciendis
+                      culpa omnis temporibus exercitationem repellat deserunt.
+                      Delectus, atque tempora.
+                    </p>
+                    <div class="about__section-item d-flex align-items-center">
+                      <p
+                        class="section__decritpion d-flex align-items-center gap-2"
+                      >
+                        <i class="far fa-check-circle"></i>Lorem ipsum dolor sit
+                        amet.
+                      </p>
+                      <p
+                        class="section__decritpion d-flex align-items-center gap-2"
+                      >
+                        <i class="far fa-check-circle"></i>Lorem ipsum dolor sit
+                        amet.
+                      </p>
+                    </div>
+                    <div class="about__section-item d-flex align-items-center">
+                      <p
+                        class="section__decritpion d-flex align-items-center gap-2"
+                      >
+                        <i class="far fa-check-circle"></i>Lorem ipsum dolor sit
+                        amet.
+                      </p>
+                      <p
+                        class="section__decritpion d-flex align-items-center gap-2"
+                      >
+                        <i class="far fa-check-circle"></i>Lorem ipsum dolor sit
+                        amet.
+                      </p>
+                    </div>
+                  </div>
+                </div>
+                <div class="col-md-6 col-lg-6">
+                  <div class="about__img">
+                    <img src="./img/MBCAN-2022.png" alt="" class="w-100" />
+                  </div>
+                </div>
+              </div>
+            </div>
+          </section>
+          <section>
+            <div class="container">
+              <div class="row">
+                <div class="mb-5 text-center col-lg-12">
+                  <h6 class="section__subtitle">Voir nos</h6>
+                  <h2 class="section__title">Services Populaires</h2>
+                </div>
+                <div class="mb-3 col-sm-6 col-md-4 col-lg-4">
+                  <div class="section__item">
+                    <span class="mb-3 d-inline-block"
+                      ><i class="fas fa-map-marker-alt"></i
+                    ></span>
+                    <h6>City Transfer</h6>
+                    <p class="section__decritpion">
+                      Tempor tempor sadipscing vero lorem sea, invidunt sed et
+                      eos ipsum et erat. Dolor ut duo sadipscing lorem.
+                      Gubergren gub
+                    </p>
+                  </div>
+                </div>
+                <div class="mb-3 col-sm-6 col-md-4 col-lg-4">
+                  <div class="section__item">
+                    <span class="mb-3 d-inline-block"
+                      ><i class="fas fa-building"></i
+                    ></span>
+                    <h6>Whole City Tour</h6>
+                    <p class="section__decritpion">
+                      Tempor tempor sadipscing vero lorem sea, invidunt sed et
+                      eos ipsum et erat. Dolor ut duo sadipscing lorem.
+                      Gubergren gub
+                    </p>
+                  </div>
+                </div>
+                <div class="mb-3 col-sm-6 col-md-4 col-lg-4">
+                  <div class="section__item">
+                    <span class="mb-3 d-inline-block"
+                      ><i class="fas fa-car"></i
+                    ></span>
+                    <h6>Unlimited Miles Car Rental</h6>
+                    <p class="section__decritpion">
+                      Tempor tempor sadipscing vero lorem sea, invidunt sed et
+                      eos ipsum et erat. Dolor ut duo sadipscing lorem.
+                      Gubergren gub
+                    </p>
+                  </div>
+                </div>
+                <div class="mb-3 col-sm-6 col-md-4 col-lg-4">
+                  <div class="section__item">
+                    <span class="mb-3 d-inline-block"
+                      ><i class="fas fa-stopwatch"></i
+                    ></span>
+                    <h6>Fast &amp; Easy Booking</h6>
+                    <p class="section__decritpion">
+                      Tempor tempor sadipscing vero lorem sea, invidunt sed et
+                      eos ipsum et erat. Dolor ut duo sadipscing lorem.
+                      Gubergren gub
+                    </p>
+                  </div>
+                </div>
+                <div class="mb-3 col-sm-6 col-md-4 col-lg-4">
+                  <div class="section__item">
+                    <span class="mb-3 d-inline-block"
+                      ><i class="fas fa-map-pin"></i
+                    ></span>
+                    <h6>Many Pickup Locations</h6>
+                    <p class="section__decritpion">
+                      Tempor tempor sadipscing vero lorem sea, invidunt sed et
+                      eos ipsum et erat. Dolor ut duo sadipscing lorem.
+                      Gubergren gub
+                    </p>
+                  </div>
+                </div>
+                <div class="mb-3 col-sm-6 col-md-4 col-lg-4">
+                  <div class="section__item">
+                    <span class="mb-3 d-inline-block"
+                      ><i class="fas fa-plane-departure"></i
+                    ></span>
+                    <h6>Airport Transfer</h6>
+                    <p class="section__decritpion">
+                      Tempor tempor sadipscing vero lorem sea, invidunt sed et
+                      eos ipsum et erat. Dolor ut duo sadipscing lorem.
+                      Gubergren gub
+                    </p>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </section>
+          <section>
+            <div class="container">
+              <div class="row">
+                <div class="text-center mb-5 col-lg-12">
+                  <h6 class="section__subtitle">Venez voir </h6>
+                  <h2 class="section__title">Offres Spéciales</h2>
+                </div>
+                <div class="mb-5 col-sm-6 col-md-4 col-lg-4">
+                  <div class="car__item">
+                    <div class="car__img">
+                      <img src="/img/1.png" alt="Tesla Malibu" class="w-100" />
+                    </div>
+                    <div class="car__item-content mt-4">
+                      <h4 class="section__title text-center">Tesla Malibu</h4>
+                      <h6 class="rent__price text-center mt-4">
+                        $50.00<span>/ Day</span>
+                      </h6>
+                      <div
+                        class="car__item-info d-flex align-items-center justify-content-between mt-3 mb-4"
+                      >
+                        <span class="d-flex align-items-center gap-1"
+                          ><i class="ri-car-line"></i> Model 3</span
+                        ><span class="d-flex align-items-center gap-1"
+                          ><i class="ri-settings-2-line"></i> Automatic</span
+                        ><span class="d-flex align-items-center gap-1"
+                          ><i class="ri-timer-flash-line"></i> 20kmpl</span
+                        >
+                      </div>
+                      <button class="w-50 car__item-btn car__btn-rent">
+                        <a href="/carRental/cars/Tesla Malibu">Rent</a></button
+                      ><button class="w-50 car__item-btn car__btn-details">
+                        <a href="/carRental/cars/Tesla Malibu">Details</a>
+                      </button>
+                    </div>
+                  </div>
+                </div>
+                <div class="mb-5 col-sm-6 col-md-4 col-lg-4">
+                  <div class="car__item">
+                    <div class="car__img">
+                      <img
+                        src="/img/2.png"
+                        alt="Toyota Aventador"
+                        class="w-100"
+                      />
+                    </div>
+                    <div class="car__item-content mt-4">
+                      <h4 class="section__title text-center">
+                        Toyota Aventador
+                      </h4>
+                      <h6 class="rent__price text-center mt-4">
+                        $50.00<span>/ Day</span>
+                      </h6>
+                      <div
+                        class="car__item-info d-flex align-items-center justify-content-between mt-3 mb-4"
+                      >
+                        <span class="d-flex align-items-center gap-1"
+                          ><i class="ri-car-line"></i> Model-2022</span
+                        ><span class="d-flex align-items-center gap-1"
+                          ><i class="ri-settings-2-line"></i> Automatic</span
+                        ><span class="d-flex align-items-center gap-1"
+                          ><i class="ri-timer-flash-line"></i> 20kmpl</span
+                        >
+                      </div>
+                      <button class="w-50 car__item-btn car__btn-rent">
+                        <a href="/carRental/cars/Toyota Aventador"
+                          >Rent</a
+                        ></button
+                      ><button class="w-50 car__item-btn car__btn-details">
+                        <a href="/carRental/cars/Toyota Aventador">Details</a>
+                      </button>
+                    </div>
+                  </div>
+                </div>
+                <div class="mb-5 col-sm-6 col-md-4 col-lg-4">
+                  <div class="car__item">
+                    <div class="car__img">
+                      <img src="/img/3.png" alt="BMW X3" class="w-100" />
+                    </div>
+                    <div class="car__item-content mt-4">
+                      <h4 class="section__title text-center">BMW X3</h4>
+                      <h6 class="rent__price text-center mt-4">
+                        $65.00<span>/ Day</span>
+                      </h6>
+                      <div
+                        class="car__item-info d-flex align-items-center justify-content-between mt-3 mb-4"
+                      >
+                        <span class="d-flex align-items-center gap-1"
+                          ><i class="ri-car-line"></i> Model-2022</span
+                        ><span class="d-flex align-items-center gap-1"
+                          ><i class="ri-settings-2-line"></i> Automatic</span
+                        ><span class="d-flex align-items-center gap-1"
+                          ><i class="ri-timer-flash-line"></i> 20kmpl</span
+                        >
+                      </div>
+                      <button class="w-50 car__item-btn car__btn-rent">
+                        <a href="/carRental/cars/BMW X3">Rent</a></button
+                      ><button class="w-50 car__item-btn car__btn-details">
+                        <a href="/carRental/cars/BMW X3">Details</a>
+                      </button>
+                    </div>
+                  </div>
+                </div>
+                <div class="mb-5 col-sm-6 col-md-4 col-lg-4">
+                  <div class="car__item">
+                    <div class="car__img">
+                      <img
+                        src="/img/4.jpg"
+                        alt="Nissan Mercielago"
+                        class="w-100"
+                      />
+                    </div>
+                    <div class="car__item-content mt-4">
+                      <h4 class="section__title text-center">
+                        Nissan Mercielago
+                      </h4>
+                      <h6 class="rent__price text-center mt-4">
+                        $70.00<span>/ Day</span>
+                      </h6>
+                      <div
+                        class="car__item-info d-flex align-items-center justify-content-between mt-3 mb-4"
+                      >
+                        <span class="d-flex align-items-center gap-1"
+                          ><i class="ri-car-line"></i> Model-2022</span
+                        ><span class="d-flex align-items-center gap-1"
+                          ><i class="ri-settings-2-line"></i> Automatic</span
+                        ><span class="d-flex align-items-center gap-1"
+                          ><i class="ri-timer-flash-line"></i> 20kmpl</span
+                        >
+                      </div>
+                      <button class="w-50 car__item-btn car__btn-rent">
+                        <a href="/carRental/cars/Nissan Mercielago"
+                          >Rent</a
+                        ></button
+                      ><button class="w-50 car__item-btn car__btn-details">
+                        <a href="/carRental/cars/Nissan Mercielago">Details</a>
+                      </button>
+                    </div>
+                  </div>
+                </div>
+                <div class="mb-5 col-sm-6 col-md-4 col-lg-4">
+                  <div class="car__item">
+                    <div class="car__img">
+                      <img src="/img/3.png" alt="Ferrari Camry" class="w-100" />
+                    </div>
+                    <div class="car__item-content mt-4">
+                      <h4 class="section__title text-center">Ferrari Camry</h4>
+                      <h6 class="rent__price text-center mt-4">
+                        $45.00<span>/ Day</span>
+                      </h6>
+                      <div
+                        class="car__item-info d-flex align-items-center justify-content-between mt-3 mb-4"
+                      >
+                        <span class="d-flex align-items-center gap-1"
+                          ><i class="ri-car-line"></i> Model-2022</span
+                        ><span class="d-flex align-items-center gap-1"
+                          ><i class="ri-settings-2-line"></i> Automatic</span
+                        ><span class="d-flex align-items-center gap-1"
+                          ><i class="ri-timer-flash-line"></i> 20kmpl</span
+                        >
+                      </div>
+                      <button class="w-50 car__item-btn car__btn-rent">
+                        <a href="/carRental/cars/Ferrari Camry">Rent</a></button
+                      ><button class="w-50 car__item-btn car__btn-details">
+                        <a href="/carRental/cars/Ferrari Camry">Details</a>
+                      </button>
+                    </div>
+                  </div>
+                </div>
+                <div class="mb-5 col-sm-6 col-md-4 col-lg-4">
+                  <div class="car__item">
+                    <div class="car__img">
+                      <img
+                        src="/img/2.png"
+                        alt="Mercedes Benz XC90"
+                        class="w-100"
+                      />
+                    </div>
+                    <div class="car__item-content mt-4">
+                      <h4 class="section__title text-center">
+                        Mercedes Benz XC90
+                      </h4>
+                      <h6 class="rent__price text-center mt-4">
+                        $85.00<span>/ Day</span>
+                      </h6>
+                      <div
+                        class="car__item-info d-flex align-items-center justify-content-between mt-3 mb-4"
+                      >
+                        <span class="d-flex align-items-center gap-1"
+                          ><i class="ri-car-line"></i> Model-2022</span
+                        ><span class="d-flex align-items-center gap-1"
+                          ><i class="ri-settings-2-line"></i> Automatic</span
+                        ><span class="d-flex align-items-center gap-1"
+                          ><i class="ri-timer-flash-line"></i> 20kmpl</span
+                        >
+                      </div>
+                      <button class="w-50 car__item-btn car__btn-rent">
+                        <a href="/carRental/cars/Mercedes Benz XC90"
+                          >Rent</a
+                        ></button
+                      ><button class="w-50 car__item-btn car__btn-details">
+                        <a href="/carRental/cars/Mercedes Benz XC90">Details</a>
+                      </button>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </section>
+          <section class="become__driver">
+            <div class="container">
+              <div class="row">
+                <div class="become__driver-img col-sm-12 col-md-6 col-lg-6">
+                  <img
+                    src="/img/2.png"
+                    alt="toyota-offer-2.png"
+                    class="w-100"
+                  />
+                </div>
+                <div class="col-sm-12 col-md-6 col-lg-6">
+                  <h2 class="section__title become__driver-title">
+                    Do You Want to Earn With Us ? So Don't Be Late
+                  </h2>
+                  <button class="btn become__driver-btn mt-4">
+                    Devenir un conducteur
+                  </button>
+                </div>
+              </div>
+            </div>
+          </section>
+          <section>
+            <div class="container">
+              <div class="row">
+                <div class="mb-4 text-center col-lg-12">
+                  <h6 class="section__subtitle">Nos clients disent</h6>
+                  <h2 class="section__title">Témoignages</h2>
+                </div>
+                <div class="slick-slider slick-initialized" dir="ltr">
+                  <div class="slick-list">
+                    <div
+                      class="slick-track"
+                      style="
+                        width: 3480px;
+                        opacity: 1;
+                        transform: translate3d(-696px, 0px, 0px);
+                      "
+                    >
+                      <div
+                        data-index="2"
+                        class="slick-slide"
+                        tabindex="-1"
+                        aria-hidden="true"
+                        style="outline: none; width: 348px;"
+                      >
+                        <div>
+                          <div
+                            class="testimonial py-4 px-3"
+                            tabindex="-1"
+                            style="width: 100%; display: inline-block;"
+                          >
+                            <p class="section__decritpion">
+                              Lorem ipsum dolor sit amet consectetur adipisicing
+                              elit. Tenetur aut molestiae maxime asperiores
+                              nemo, odit amet eum quasi doloremque repudiandae
+                              perferendis in blanditiis recusandae
+                              exercitationem reprehenderit illum accusantium
+                              vero quaerat.
+                            </p>
+                            <div class="mt-3 d-flex align-items-center gap-4">
+                              <img
+                                src="/img/avatar.jpg"
+                                alt="ava01"
+                                class="w-25 h-25 rounded-2"
+                              />
+                              <div>
+                                <h6 class="mb-0 mt-3">Mikhal BOSSOU</h6>
+                                <p class="section__decritpion">
+                                  Front-End Developper
+                                </p>
+                              </div>
+                            </div>
+                          </div>
+                        </div>
+                      </div>
+                      <div
+                        data-index="3"
+                        class="slick-slide"
+                        tabindex="-1"
+                        aria-hidden="true"
+                        style="outline: none; width: 348px;"
+                      >
+                        <div>
+                          <div
+                            class="testimonial py-4 px-3"
+                            tabindex="-1"
+                            style="width: 100%; display: inline-block;"
+                          >
+                            <p class="section__decritpion">
+                              Lorem ipsum dolor sit amet consectetur adipisicing
+                              elit. Tenetur aut molestiae maxime asperiores
+                              nemo, odit amet eum quasi doloremque repudiandae
+                              perferendis in blanditiis recusandae
+                              exercitationem reprehenderit illum accusantium
+                              vero quaerat.
+                            </p>
+                            <div class="mt-3 d-flex align-items-center gap-4">
+                              <img
+                                src="/img/avatar.jpg"
+                                alt="ava01"
+                                class="w-25 h-25 rounded-2"
+                              />
+                              <div>
+                                <h6 class="mb-0 mt-3">Ariane Steimetz</h6>
+                                <p class="section__decritpion">Web designer</p>
+                              </div>
+                            </div>
+                          </div>
+                        </div>
+                      </div>
+                      <div
+                        data-index="3"
+                        class="slick-slide"
+                        tabindex="-1"
+                        aria-hidden="true"
+                        style="outline: none; width: 348px;"
+                      >
+                        <div>
+                          <div
+                            class="testimonial py-4 px-3"
+                            tabindex="-1"
+                            style="width: 100%; display: inline-block;"
+                          >
+                            <p class="section__decritpion">
+                              Lorem ipsum dolor sit amet consectetur adipisicing
+                              elit. Tenetur aut molestiae maxime asperiores
+                              nemo, odit amet eum quasi doloremque repudiandae
+                              perferendis in blanditiis recusandae
+                              exercitationem reprehenderit illum accusantium
+                              vero quaerat.
+                            </p>
+                            <div class="mt-3 d-flex align-items-center gap-4">
+                              <img
+                                src="/img/avatar.jpg"
+                                alt="ava01"
+                                class="w-25 h-25 rounded-2"
+                              />
+                              <div>
+                                <h6 class="mb-0 mt-3">Ariane Steimetz</h6>
+                                <p class="section__decritpion">Web designer</p>
+                              </div>
+                            </div>
+                          </div>
+                        </div>
+                      </div>
+                      <div
+                        data-index="3"
+                        class="slick-slide"
+                        tabindex="-1"
+                        aria-hidden="true"
+                        style="outline: none; width: 348px;"
+                      >
+                        <div>
+                          <div
+                            class="testimonial py-4 px-3"
+                            tabindex="-1"
+                            style="width: 100%; display: inline-block;"
+                          >
+                            <p class="section__decritpion">
+                              Lorem ipsum dolor sit amet consectetur adipisicing
+                              elit. Tenetur aut molestiae maxime asperiores
+                              nemo, odit amet eum quasi doloremque repudiandae
+                              perferendis in blanditiis recusandae
+                              exercitationem reprehenderit illum accusantium
+                              vero quaerat.
+                            </p>
+                            <div class="mt-3 d-flex align-items-center gap-4">
+                              <img
+                                src="/img/avatar.jpg"
+                                alt="ava01"
+                                class="w-25 h-25 rounded-2"
+                              />
+                              <div>
+                                <h6 class="mb-0 mt-3">Ariane Steimetz</h6>
+                                <p class="section__decritpion">Web designer</p>
+                              </div>
+                            </div>
+                          </div>
+                        </div>
+                      </div>
+                      <div
+                        data-index="3"
+                        class="slick-slide"
+                        tabindex="-1"
+                        aria-hidden="true"
+                        style="outline: none; width: 348px;"
+                      >
+                        <div>
+                          <div
+                            class="testimonial py-4 px-3"
+                            tabindex="-1"
+                            style="width: 100%; display: inline-block;"
+                          >
+                            <p class="section__decritpion">
+                              Lorem ipsum dolor sit amet consectetur adipisicing
+                              elit. Tenetur aut molestiae maxime asperiores
+                              nemo, odit amet eum quasi doloremque repudiandae
+                              perferendis in blanditiis recusandae
+                              exercitationem reprehenderit illum accusantium
+                              vero quaerat.
+                            </p>
+                            <div class="mt-3 d-flex align-items-center gap-4">
+                              <img
+                                src="/img/avatar.jpg"
+                                alt="ava01"
+                                class="w-25 h-25 rounded-2"
+                              />
+                              <div>
+                                <h6 class="mb-0 mt-3">Ariane Steimetz</h6>
+                                <p class="section__decritpion">Web designer</p>
+                              </div>
+                            </div>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                  <ul class="slick-dots" style="display: block;">
+                    <li class="slick-active"><button>1</button></li>
+                    <li class=""><button>2</button></li>
+                    <li class=""><button>3</button></li>
+                    <li class=""><button>4</button></li>
+                  </ul>
+                </div>
+              </div>
+            </div>
+          </section>
+          <section>
+            <div class="container">
+              <div class="row">
+                <div class="mb-5 text-center col-lg-12">
+                  <h6 class="section__subtitle">Explorer notre Blog</h6>
+                  <h2 class="section__title">Derniers Blogs</h2>
+                </div>
+                <div class="mb-5 col-sm-6 col-md-6 col-lg-4">
+                  <div class="blog__item">
+                    <img src="/img/02.jpg" alt="" class="w-100" />
+                    <div class="blog__info p-3">
+                      <a class="blog__title" href="/img/01.jpg"
+                        >The best way to drive cars</a
+                      >
+                      <p class="section__description mt-3">
+                        Dolor labore lorem no accusam sit justo sadipscing
+                        labore invidunt voluptua, amet duo et gubergren
+                      </p>
+                      <a class="read__more" href="/img/03.jpg">En savoir +</a>
+                      <div
+                        class="blog__time pt-3 mt-3 d-flex align-items-center justify-content-between"
+                      >
+                        <span class="blog__author"
+                          ><i class="ri-user-line"></i> Muhib</span
+                        >
+                        <div class="d-flex align-items-center gap-3">
+                          <span
+                            class="d-flex align-items-center gap-1 section__description"
+                            ><i class="ri-calendar-line"></i> 12 Dec, 2020</span
+                          ><span
+                            class="d-flex align-items-center gap-1 section__description"
+                            ><i class="ri-time-line"></i> 9pm</span
+                          >
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+                <div class="mb-5 col-sm-6 col-md-6 col-lg-4">
+                  <div class="blog__item">
+                    <img src="/img/03.jpg" alt="" class="w-100" />
+                    <div class="blog__info p-3">
+                      <a
+                        class="blog__title"
+                        href="/carRental/blogs/If your car battery is down"
+                        >If your car battery is down</a
+                      >
+                      <p class="section__description mt-3">
+                        Dolor labore lorem no accusam sit justo sadipscing
+                        labore invidunt voluptua, amet duo et gubergren
+                      </p>
+                      <a
+                        class="read__more"
+                        href="/carRental/blogs/If your car battery is down"
+                        >En savoir +</a
+                      >
+                      <div
+                        class="blog__time pt-3 mt-3 d-flex align-items-center justify-content-between"
+                      >
+                        <span class="blog__author"
+                          ><i class="ri-user-line"></i> Muhib</span
+                        >
+                        <div class="d-flex align-items-center gap-3">
+                          <span
+                            class="d-flex align-items-center gap-1 section__description"
+                            ><i class="ri-calendar-line"></i> 12 Dec, 2020</span
+                          ><span
+                            class="d-flex align-items-center gap-1 section__description"
+                            ><i class="ri-time-line"></i> 9pm</span
+                          >
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+                <div class="mb-5 col-sm-6 col-md-6 col-lg-4">
+                  <div class="blog__item">
+                    <img src="/img/01.jpg" alt="" class="w-100" />
+                    <div class="blog__info p-3">
+                      <a
+                        class="blog__title"
+                        href="/carRental/blogs/The best way to give trip"
+                        >The best way to give trip</a
+                      >
+                      <p class="section__description mt-3">
+                        Dolor labore lorem no accusam sit justo sadipscing
+                        labore invidunt voluptua, amet duo et gubergren
+                      </p>
+                      <a
+                        class="read__more"
+                        href="/carRental/blogs/The best way to give trip"
+                        >En savoir +</a
+                      >
+                      <div
+                        class="blog__time pt-3 mt-3 d-flex align-items-center justify-content-between"
+                      >
+                        <span class="blog__author"
+                          ><i class="ri-user-line"></i> Muhib</span
+                        >
+                        <div class="d-flex align-items-center gap-3">
+                          <span
+                            class="d-flex align-items-center gap-1 section__description"
+                            ><i class="ri-calendar-line"></i> 12 Dec, 2020</span
+                          ><span
+                            class="d-flex align-items-center gap-1 section__description"
+                            ><i class="ri-time-line"></i> 9pm</span
+                          >
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </section>
+        </div>
+      </div>
+      <footer class="footer">
+        <div class="container">
+          <div class="row">
+            <div class="col-sm-12 col-md-4 col-lg-4">
+              <div class="logo footer__logo">
+                <h1>
+                  <a
+                    class="d-flex align-items-center gap-3"
+                    href="/carRental/home"
+                    ><i class="ri-car-line"></i
+                    ><span>Rent Car <br />Service</span></a
+                  >
+                </h1>
+              </div>
+              <p class="footer__logo-content">
+                Lorem ipsum dolor, sit amet consectetur adipisicing elit.
+                Ducimus, vel quod! Necessitatibus illo tempore natus, ipsa earum
+                minus ducimus, temporibus rem quidem iusto eaque reprehenderit,
+                numquam cumque deleniti laboriosam officiis.
+              </p>
+            </div>
+            <div class="col-sm-6 col-md-4 col-lg-2">
+              <div class="mb-4">
+                <h5 class="footer__link-title">Liens rapides</h5>
+                <ul class="list-group">
+                  <li class="p-0 mt-3 quick__link list-group-item">
+                    <a href="/carRental/about">A propos</a>
+                  </li>
+                  <li class="p-0 mt-3 quick__link list-group-item">
+                    <a href="/carRental/home">Politique de confidentialité</a>
+                  </li>
+                  <li class="p-0 mt-3 quick__link list-group-item">
+                    <a href="/carRental/cars">Liste Voiture</a>
+                  </li>
+                  <li class="p-0 mt-3 quick__link list-group-item">
+                    <a href="/carRental/blog">Blog</a>
+                  </li>
+                  <li class="p-0 mt-3 quick__link list-group-item">
+                    <a href="/carRental/contact">Contact</a>
+                  </li>
+                </ul>
+              </div>
+            </div>
+            <div class="col-sm-6 col-md-4 col-lg-3">
+              <div class="mb-4">
+                <h5 class="footer__link-title mb-4">Bureau Principal</h5>
+                <p class="office__info">123 Zindabazar, Sylhet, Bangladesh</p>
+                <p class="office__info">Contact : +123456789</p>
+                <p class="office__info">Email : muhibish@gmail.com</p>
+                <p class="office__info">Heures d'ouverture : 10AM -7PM</p>
+              </div>
+            </div>
+            <div class="col-sm-12 col-md-4 col-lg-3">
+              <div class="mb-4">
+                <h5 class="footer__link-title mb-4">Newsletter</h5>
+                <p class="section__decritpion">Souscrire à notre newsletter</p>
+                <div class="newsletter">
+                  <input type="email" placeholder="Email" /><span
+                    ><i class="ri-send-plane-line"></i
+                  ></span>
+                </div>
+              </div>
+            </div>
+            <div class="col-lg-12">
+              <div class="footer__bottom">
+                <p
+                  class="section__decritpion d-flex align-items-center justify-content-center gap-1 pt-4 flex-wrap"
+                >
+                  <i class="ri-copyright-line"></i>Copyright 2024, Developed
+                  by<a href="https://github.com/mikhalb-dev" target="_blank"
+                    >mikhalb-dev.</a
+                  >All rights reserved
+                </p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </footer>
+    </div>
+  </body>
+  <script src="./rsc/bootstrap-5.3.0/js/bootstrap.min.js"></script>
+  <script type="text/javascript" src="./js/jquery-3.6.0.min.js"></script>
+  <script type="text/javascript" src="./rsc/slick/slick.min.js"></script>
+  <script>
+    window.onload = function () {
+      $(".slick-track").slick({
+        autoplay: true,
+        autoplaySpeed: 1500,
+        centerMode: true,
+        mobileFirst: true,
+        slidesToShow: 4,
+        slidesToScroll: 5,
+      });
+    };
+  </script>
+</html>
